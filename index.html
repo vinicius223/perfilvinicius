@@ -3,57 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--REFERE-SE AO TEMA 05 – FORMULÁRIOS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.cs" rel="stylesheet">
-    <!--REFERE-SE AO TEMA 05 – FORMULÁRIOS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">  
     <title>Perfil do Vinícius</title>
 </head>
 <body>
+    <div class="container">
     <!--REFERE-SE AO TEMA 06 – CSS (Cascating Styles Sheets – Folhas de Estilo em Cascata)-->
     <link rel="stylesheet" type="text/css" href="style.css">
-    <!--REFERE-SE AO TEMA 06 – CSS (Cascating Styles Sheets – Folhas de Estilo em Cascata)-->
-    
-    <!--REFERE-SE AO TEMA 05 – FORMULÁRIOS-->
-    <div class="container">
-    <!--REFERE-SE AO TEMA 05 – FORMULÁRIOS-->
-        <div class="displayBotao">
-            <p id="demo"></p>
-        <div id="cabecalho">
-            <p>Este será o meu perfil descrito na matéria <i>Interface para Web I</i>, 3º Bimestre do curso INFNET.</p>
-        </div>
-        <main> 
-            <div id="imagem">
-                <img src="https://i.postimg.cc/9Fj8M3FB/Whats-App-Image-2023-07-30-at-22-52-53.jpg"alt="Perfil Marcio">
-                <!--<img src="https://i.postimg.cc/FHvjm2kB/mr-bean-cke-removebg-preview.png" alt="Perfil Marcio">-->
-                <!--<img src="https://i.postimg.cc/kM2jgCwY/barbie.jpg" alt="Perfil Marcio">-->
-            </div><BR />
-                <div>
-                    <table border="1">
+
+    <!--REFERE-SE AO TEMA 06 – CSS (Cascating Styles Sheets – Folhas de Estilo em Cascata)-->  
+        
+            <p id="cabecalho">Este será o meu perfil descrito na matéria <i>Interface para Web I</i>, 3º Bimestre do curso INFNET.</p>
+        
+        <main>               
+                        <div id="imagem">
+                            <img src="https://i.postimg.cc/9Fj8M3FB/Whats-App-Image-2023-07-30-at-22-52-53.png" alt="Sua Imagem">
+                        </div>
+                <!--<img src="https://i.postimg.cc/FHvjm2kB/mr-bean-cke-removebg-preview.png" alt="Perfil Jose">-->
+                <!--<img src="https://i.postimg.cc/kM2jgCwY/barbie.jpg" alt="Perfil Jose">-->           
+                
+                <p class="centro">Algo sobre mim...</p>    
+                <table id="tabela" border="1">
                         <tbody>
-                            <caption>Algo sobre mim...</caption>
-                            <!--<tr style="text-transform: uppercase; font-weight: bold; color:  #c26861; ">-->
-                                <tr>
+                            
+                            <!--<tr style="text-transform: uppercase; font-weight: bold; color:  #c26861; ">-->                                                          
+                                <tr>                                                                                                                 
                                     <th>Nome</th>
                                     <th>Idade</th>
                                     <th>Comida</th>
                                     <th>Filme</th>
                                     <th>Serie</th>
-                                </tr>
-                                <tr>
+                                </tr>                                                             
+                            <tr id="eu">
                                     <td>Vinícius</td>
                                     <td>16</td>
-                                    <td>pizza</td>
+                                    <td>Pizza</td>
                                     <td>Gente Grande</td>
                                     <td>Rick and Morty</td>
                                 </tr>
                         </tbody>
-                    </table>
-                </div><br />
+                    </table><br />
                 <div>
-                    <table border="1">
-                        <tbody>
-                            <caption>Algumas TAGS HTML que aprendi no curso</caption>
+                    <p class="centro">ALGUMAS TAGS HTML QUE APRENDI NO CURSO</p>
+                    <table id="tabela" border="1">
+                        <tbody>                           
                                 <tr>
                                     <th>h1</th>
                                     <th>table</th>
@@ -112,9 +105,9 @@
                     <div id="formularioa">
                         <form action="/#"><br />
                             <label for="pnome">Primeiro Nome:</label><br>
-                            <input type="text" id="pnome" nome="pnome" value="Vinícius"><br><br>
+                            <input type="text" id="pnome" nome="pnome" value="Jose"><br><br>
                             <label for="unome">Sobrenome:</label><br>
-                            <input type="text" id="unome" name="unome" value="Viana"><br>
+                            <input type="text" id="unome" name="unome" value="Maia"><br>
                                     
                                 <p>Comentários:<small><br />Não precisa comentar, é só um exemplo:</small></p>
                                     <textarea rows="5" cols="30"></textarea><br />
@@ -230,8 +223,7 @@
                     <form>
                         Ano de Nascimeto:
                         <small>Selecione o ano de seu nascimento, obs: vc pode digitar tbm se quiser.</small>
-                        <input type="number" name="anoNascimeto" required min="1910" max="2026" step="1">
-            </footer>
+                        <input type="number" name="anoNascimeto" required min="1910" max="2026" step="1">           
                 </form><hr />
 
                     <form>
@@ -245,12 +237,15 @@
                     </form><hr />
                 </div> 
      </main>
-        <footer class="footer">
+        <footer class="rodape">
                 <p>Autor: Vinícius De Paula Viana</p>
-                <p><a href="mailto:viniciuspaulaviana@gmail.com">viniciuspaulaviana@gmail.com</a></p>
+                <p><a href="mailto:Vinícius De Paula Viana">viníciuspaulaviana@gmail.com</a></p>
         </footer>
         <script defer src="script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    </div>     
   </body>
 </html>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
 
