@@ -109,7 +109,10 @@ td{
     text-align: center;
 }
 .vini{
-    border-color: #660000;
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid rgb(0, 0, 0);
+    padding: 50px;
+    margin: 20px;
     text-align: center;
-    border: 15px solid rgb(0, 0, 0)
 }
