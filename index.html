@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.cs" rel="stylesheet">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">  
     <title>Perfil do Vinícius</title>
 </head>
 <body>
@@ -12,28 +12,28 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <!--REFERE-SE AO TEMA 06 – CSS (Cascating Styles Sheets – Folhas de Estilo em Cascata)-->  
-        
+       
             <p id="cabecalho">Este será o meu perfil descrito na matéria <i>Interface para Web I</i>, 3º Bimestre do curso INFNET.</p>
-        
-        <main>               
+       
+        <main>              
                         <div id="imagem">
-                            <img src="https://i.postimg.cc/Hnb7xDC0/Whats-App-Image-2023-07-30-at-22-52-53-removebg-preview.png alt="Sua Imagem">
+                            <img src="https://i.postimg.cc/Hnb7xDC0/Whats-App-Image-2023-07-30-at-22-52-53-removebg-preview.png " alt="Sua Imagem">
                         </div>
-                <!--<img src="https://i.postimg.cc/FHvjm2kB/mr-bean-cke-removebg-preview.png" alt="Perfil Vinícius">-->
-                <!--<img src="https://i.postimg.cc/kM2jgCwY/barbie.jpg" alt="Perfil Vinícius">-->           
-                
+                <!--<img src="https://i.postimg.cc/FHvjm2kB/mr-bean-cke-removebg-preview.png" alt="Perfil Jose">-->
+                <!--<img src="https://i.postimg.cc/kM2jgCwY/barbie.jpg" alt="Perfil Jose">-->          
+               
                 <p class="centro">Algo sobre mim...</p>    
                 <table id="tabela" border="1">
                         <tbody>
-                            
+                           
                             <!--<tr style="text-transform: uppercase; font-weight: bold; color:  #c26861; ">-->                                                          
-                                <tr>                                                                                                                 
+                                <tr>                                                                                                                
                                     <th>Nome</th>
                                     <th>Idade</th>
                                     <th>Comida</th>
                                     <th>Filme</th>
                                     <th>Serie</th>
-                                </tr>                                                             
+                                </tr>                                                            
                             <tr id="eu">
                                     <td>Vinícius</td>
                                     <td>16</td>
@@ -46,7 +46,7 @@
                 <div>
                     <p class="centro">ALGUMAS TAGS HTML QUE APRENDI NO CURSO</p>
                     <table id="tabela" border="1">
-                        <tbody>                           
+                        <tbody>                          
                                 <tr>
                                     <th>h1</th>
                                     <th>table</th>
@@ -108,7 +108,7 @@
                             <input type="text" id="pnome" nome="pnome" value="Vinícius"><br><br>
                             <label for="unome">Sobrenome:</label><br>
                             <input type="text" id="unome" name="unome" value="Viana"><br>
-                                    
+                                   
                                 <p>Comentários:<small><br />Não precisa comentar, é só um exemplo:</small></p>
                                     <textarea rows="5" cols="30"></textarea><br />
                                     <input type="submit" value="Enviar">
@@ -147,7 +147,7 @@
                             </fieldset>
                         </form>
                     </div>
-                    
+                   
                     <p>Nos estamos acostumado a ver a tag &ltimg&gt hoje vamos aprender mais um elemento, é o &ltfigure&gt e o &ltfigcaption&gt.</p>
                     <p>Um é usado para imagem e outro para colocar uma espécie de informação desta imagem. Vejamos...</p>
 
@@ -179,9 +179,9 @@
                       <label for="css">CSS</label><br>
                       <input type="radio" id="javascript" name="ling-favorita" value="JavaScript">
                       <label for="javascript">JavaScript</label>
-                    
+                   
                         <br>  
-                    
+                   
                         <p>Por favor selecione a sua idade:</p>
                         <input type="radio" id="idade1" name="age" value="30">
                         <label for="idade1">13 - 30</label><br>
@@ -201,7 +201,7 @@
                                 <small>Digite alguns numeros para ver..</small>
                         </form><hr/>
                     </div>
-                    
+                   
                     <p>Opção usando um input tipo <b>COLOR</b> (Cores)...</p>
 
                     <form>
@@ -223,7 +223,7 @@
                     <form>
                         Ano de Nascimeto:
                         <small>Selecione o ano de seu nascimento, obs: vc pode digitar tbm se quiser.</small>
-                        <input type="number" name="anoNascimeto" required min="1910" max="2026" step="1">           
+                        <input type="number" name="anoNascimeto" required min="1910" max="2026" step="1">          
                 </form><hr />
 
                     <form>
@@ -235,152 +235,85 @@
                         <p>Opção usando um input tipo <b>TIME</b> (Hora)...</p>
                         <input type="time" name="horaConsulta">
                     </form><hr />
-            </div> 
-    <div>
+                </div>
+     </main>
+     <!--Box Model INICIO-->
+    <div class="vi">
+        <h2>Box Model</h2>
+     </div>
 
-    </main>
-    
+    <div class="boxmodel">
+        Primeiro Nome:  <input type="text" name="name" id="txtnome"><br /><br />
+        Sobrenome:      <input type="text" name="sobrename" id="txtsobrenome"><br><br>
+        <!--<input type="submit" value="Enviar">-->
+        <button type="submit">Enviar</button>
+    </div><hr />
+    <!--Box Model FINAL-->
 
-    <h2 class="vi">BOX MODEL</h2>
 
-   
-    <div class="vini">
-        <input type="text"  name="fname"><br><br>
-        <input type="text" id="lname" name="lname"><br><br>
-        <input type="submit" value="Enviar">
-    </div>
-<!--
-        <footer class="rodape">
-                <p>Autor: Vinícius De Paula Viana</p>
-                <p><a href="mailto:Vinícius De Paula Viana">viníciuspaulaviana@gmail.com</a></p>
-        </footer>
-        -->
 
         <script defer src="script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-    </div>     
-  </body>
-</html>
+    </div>    
 
-<link rel="stylesheet" type="text/css" href="styles.css">
 
-</form>
-       
-</div>
-
-<br>
-
-<br>
-
-<form>
-    <div class="bordoutra">
-
-        <div class="teste">
-            <h2> Formulário de Conta</h2>
-        </div>
-
-        <p> Nome: </p> <br> <input type="text" name="nome" id="txtNone">
-        <br> <br>
-        <p> Email: </p> <br> <input type="email" name="email" id="txtNone">
-        <br> <br>
-
-        <p>Comentário:</p>                                                                                  
-        <textarea rows="5" cols="25"></textarea>    <input type="submit" value=" Enviar">
-
+    <div class="vini">
+    <h2>Formulário De Contato</h2>
+        <form>
+            <p> Nome: </p> <input type="text" name="name" id="txtnome">
+            <p> Email: </p> <input type="text" name="sobrename" id="txtsobrenome">
+            <p> Mensagem: </p> <textarea rows="5" cols="30"></textarea> <button type="submit">Enviar</button>
+        </form>
     </div>
-</form>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-<!--
-<footer>
-    <p>Autor:Vinícius De Paula Viana</p>
-    <p><a href="mailto:viniciuspaulaviana@gmail.com">viniciuspaulaviana@gmail.com</a></p>
-</footer>
--->
 
 
-</div>
-<!--Box Model INICIO-->
-<div class="ti">
-    <h2>Box Model</h2> 
- </div>
-
-<div class="boxmodel">
-    Primeiro Nome:  <input type="text" name="name"><br><br>
-    Sobrenome:      <input type="text" name="sobrename"><br><br>
-    <!--<input type="submit" value="Enviar">-->
-    <button type="submit">Enviar</button>
-</div><hr>
-<!--Box Model FINAL-->
-
-
-
-<!--BOX SOFISTICADO INICIO-->
-            <p>Exemplo - <b>1</b>: Tipo de <b>BOX MODEL</b> (Modelo de caixa)...</p>
-
-            <p>DICA: Diferente do BOX MODEL acima este exemplo sim é um form, use a tag form</p>
-            <div class="formulario-container">
-                <h2 align="center">Formulário de Contato</h2>
-                <form action="#" method="post">
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" required="">
-        
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required="">
-        
-                    <label for="mensagem">Mensagem:</label>
-                    <textarea id="mensagem" name="mensagem" rows="4" required=""></textarea>
-                    
-                    <div class="botao">
-                        <button type="submit">Enviar</button>
+                <!--BOX SOFISTICADO INICIO-->
+                <p>Exemplo - <b>2</b>: Tipo de <b>BOX MODEL</b> (Mais um modelo de caixa)...</p>
+                <p class="vermelho">Preste atenção nestes <u>box model</u> - voce vai precisar dele.</p>
+                <header>
+                    <h1>Layout com Box Model</h1>
+                </header>
+                <div class="container">
+                    <div class="box">
+                        <h2>Caixa 1</h2>
+                        <p>Phasellus condimentum odio et sem tristique, eget ultrices ligula tincidunt.</p>
                     </div>
-                </form>
-            </div><br>
+                    <div class="box">
+                        <h2>Caixa 2</h2>
+                        <p>Phasellus condimentum odio et sem tristique, eget ultrices ligula tincidunt.</p>
+                    </div>
+                    <div class="box">
+                        <h2>Caixa 3</h2>
+                        <p>Phasellus condimentum odio et sem tristique, eget ultrices ligula tincidunt.</p>
+                    </div>
+                    <div class="box">
+                        <h2>Caixa 4</h2>
+                        <p>Phasellus condimentum odio et sem tristique, eget ultrices ligula tincidunt.</p>
+                    </div>
+                    <div class="box">
+                        <h2>Caixa 5</h2>
+                        <p>Phasellus condimentum odio et sem tristique, eget ultrices ligula tincidunt.</p>
+                    </div>
+                    <div class="box">
+                        <h2>Caixa 6</h2>
+                        <p>Phasellus condimentum odio et sem tristique, eget ultrices ligula tincidunt.</p>
+                    </div>
+                </div><hr />
+                <!--BOX SOFISTICADO FIM-->
+                       
+                <footer class="rodapeBox">
+                    <p>&copy; 2024 -  Exemplo 2, de um Box Model sofisticado.</p>
+                </footer><br/>
+               
 
-            
-            <figure>
-                <figcaption>Exemplo - <strong>1</strong>: BOX MODEL</figcaption>
-            </figure><br><hr>
 
 
-            <!--BOX 2 INICIO-->
-            <p>Exemplo - <b>2</b>: Tipo de <b>BOX MODEL</b> (Mais um modelo de caixa)...</p>
-            <header>
-                <h1>Layout com Box Model</h1>
-            </header>
-            <div class="container">
-                <div class="box">
-                    <h2>Caixa 1</h2>
-                    <p>ta muito dificil fazer</p>
-                </div>
-                <div class="box">
-                    <h2>Caixa 2</h2>
-                    <p>to sofrendo pra fazer</p>
-                </div>
-                <div class="box">
-                    <h2>Caixa 3</h2>
-                    <p>será q vai dar certo</p>
-                </div>
-                <div class="box">
-                    <h2>Caixa 4</h2>
-                    <p>ajuda senhor</p>
-                </div>
-                <div class="box">
-                    <h2>Caixa 5</h2>
-                    <p>ta muito dificil</p>
-                </div>
-                <div class="box">
-                    <h2>Caixa 6</h2>
-                    <p>preciso de ajuda.</p>
-                </div>
-            </div><hr>
-            <!--BOX 2 FINAL-->
-                    
-            <footer class="rodapeBox">
-                <p>© 2023 -  Segundo exemplo, de um Box Model sofisticado.</p>
-            </footer><br>
-        
- </main>
 
-</body></html>
-
+<!--
+        <footer class="rodape">
+                <p>Autor: Vinícius De Paula Viana</p>
+                <p><a href="mailto:Vinícius De Paula Viana">viniciuspaulaviana@gmail.com</a></p>
+        </footer>
+-->
+</body>
+</html>
